@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+        opacity: 0;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        stroke: none;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fbb403"/>
+      <stop offset="1" stop-color="#ff4d1b"/>
+    </linearGradient>
+  </defs>
+  <g id="Fire_24_Px" data-name="Fire 24 Px" transform="translate(-236.232 -181.161)">
+    <g id="Rectangle_5116" data-name="Rectangle 5116" class="cls-1" transform="translate(236.232 181.161)">
+      <rect class="cls-4" width="24" height="24"/>
+      <rect class="cls-5" x="0.5" y="0.5" width="23" height="23"/>
+    </g>
+    <g id="Group_15319" data-name="Group 15319" transform="translate(238.232 181.161)">
+      <path id="Path_12119" data-name="Path 12119" class="cls-2" d="M247.753,205.967s-9.264-.388-8.881-9.573c-.01-3.072-.01-3.041,0-3.061s2.117,2.612,3.324,3.061c-.029-.258-.594-11.108,8.019-14.417,0,0-2.184,10.016,1.782,8.936s1.667-5.616,1.667-5.616,5.864,6.63,2.865,11.1c.2-.066,2.443-.374,3.075-1.273.058.125-1.906,11.234-9.388,10.845" transform="translate(-238.861 -181.977)"/>
+      <path id="Path_12120" data-name="Path 12120" class="cls-3" d="M268.7,205.719c.117-.04,5.563-.739,2.122-7.18-.2,0-3.935,1.727-2.262-3.779-.1-.053-8.084,5.328-3.685,9.866A4.354,4.354,0,0,0,268.7,205.719Z" transform="translate(-257.861 -181.814)"/>
+    </g>
+  </g>
+</svg>
