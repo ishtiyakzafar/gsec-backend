@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ${CONFIG_MAP_NAME}
+  namespace: ${NAMESPACE}
+data:
+  PRIVATE_JWT_KEY: "12345-67890-09876-54321"
+  BLOB_URL: "https://stgprdbrkoneup.blob.core.windows.net/"
+  CONNECTION_STRING: "DefaultEndpointsProtocol=https;AccountName=stgpreprodbrkoneup;AccountKey=NRR7Rgx0jRl77Rz8NmtTzqqawdPnVn1QVjxy/2oA+DEglC1zCLMd3nzWXZJMKlfznreAL6G8Lndi+ASt4cxz9w==;EndpointSuffix=core.windows.net"
+  CONTAINER_NAME: ${WEB}
+  DBCONNECTION: "mongodb://oneup-preprod:en3YJMIJV2bf6Zkkv0RAbCP5fPzypMcWcjyhswIAsHsF5Ty5NetNqFaMGHk8d2DlJ6B74ereSDu2ACDbeluXPQ==@oneup-preprod.mongo.cosmos.azure.com:10255/?ssl=true&replicaSet=globaldb&retrywrites=false&maxIdleTimeMS=120000&appName=@oneup-preprod@"
+  RAZORPAY_KEY_ID: "rzp_live_kDxYf4btxZ8TaO"
+  RAZORPAY_KEY_SECRET: "WxWrwVBtbNjCYjH8u0PzX0hn"
